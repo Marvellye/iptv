@@ -5,6 +5,9 @@ on:
     - cron: "0 */3 * * *"   # every 3 hours
   workflow_dispatch:        # allow manual run
 
+permissions:
+  contents: write   # ✅ allow pushing to the repo
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -68,4 +71,4 @@ jobs:
           git config user.email "actions@github.com"
           git add master.m3u sources/*.m3u
           git commit -m "Auto update IPTV playlist" || echo "No changes"
-          git push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
