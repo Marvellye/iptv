@@ -15,6 +15,10 @@ jobs:
       - name: Install yt-dlp
         run: pip install yt-dlp
 
+      - name: Save cookies
+        run: |
+          echo "${{ secrets.YT_COOKIES }}" > cookies.txt
+
       - name: Update YouTube sources
         run: |
           mkdir -p sources
@@ -34,12 +38,18 @@ jobs:
             GROUP=$(echo "$META" | cut -d'|' -f4)
             TVGID=$(echo "$META" | cut -d'|' -f5)
 
-            # Try to get 1080p60, else fallback to best
-            M3U_URL=$(yt-dlp -f 301 -g "$URL" || yt-dlp -f best -g "$URL")
-
             echo "#EXTM3U" > sources/$FILE.m3u
-            echo "#EXTINF:-1 tvg-id=\"$TVGID\" tvg-logo=\"$LOGO\" group-title=\"$GROUP\",$NAME" >> sources/$FILE.m3u
-            echo "$M3U_URL" >> sources/$FILE.m3u
+
+            # Try to fetch stream link with cookies
+            M3U_URL=$(yt-dlp --cookies cookies.txt -f 301 -g "$URL" 2>/dev/null || yt-dlp --cookies cookies.txt -f best -g "$URL" 2>/dev/null || echo "")
+
+            if [ -n "$M3U_URL" ]; then
+              echo "#EXTINF:-1 tvg-id=\"$TVGID\" tvg-logo=\"$LOGO\" group-title=\"$GROUP\",$NAME" >> sources/$FILE.m3u
+              echo "$M3U_URL" >> sources/$FILE.m3u
+            else
+              echo "#EXTINF:-1 tvg-id=\"$TVGID\" tvg-logo=\"$LOGO\" group-title=\"$GROUP\",$NAME (Unavailable)" >> sources/$FILE.m3u
+              echo "http://offline" >> sources/$FILE.m3u
+            fi
           done
 
       - name: Build master playlist
