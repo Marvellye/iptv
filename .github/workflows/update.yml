@@ -1,0 +1,61 @@
+name: Update IPTV Playlist
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"   # every 3 hours
+  workflow_dispatch:        # allow manual run
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Install yt-dlp
+        run: pip install yt-dlp
+
+      - name: Update YouTube sources
+        run: |
+          mkdir -p sources
+
+          # --- Define YouTube channels with metadata ---
+          # Format: ["file-name|Display Name|Logo URL|Group Title|TVG-ID"]=YouTubeURL
+          declare -A CHANNELS=(
+            ["arise-news|Arise News|https://marvellye.github.io/iptv/images/arise-news-logo-lg.png|News|"]="https://www.youtube.com/watch?v=srJg6ZIPmvU"
+            ["sky-news|Sky News|https://marvellye.github.io/iptv/images/Sky_News.png.png|News|SkyNews.uk"]="https://www.youtube.com/watch?v=YDvsBbKfLPA"
+          )
+
+          for META in "${!CHANNELS[@]}"; do
+            URL=${CHANNELS[$META]}
+            FILE=$(echo "$META" | cut -d'|' -f1)
+            NAME=$(echo "$META" | cut -d'|' -f2)
+            LOGO=$(echo "$META" | cut -d'|' -f3)
+            GROUP=$(echo "$META" | cut -d'|' -f4)
+            TVGID=$(echo "$META" | cut -d'|' -f5)
+
+            # Try to get 1080p60, else fallback to best
+            M3U_URL=$(yt-dlp -f 301 -g "$URL" || yt-dlp -f best -g "$URL")
+
+            echo "#EXTM3U" > sources/$FILE.m3u
+            echo "#EXTINF:-1 tvg-id=\"$TVGID\" tvg-logo=\"$LOGO\" group-title=\"$GROUP\",$NAME" >> sources/$FILE.m3u
+            echo "$M3U_URL" >> sources/$FILE.m3u
+          done
+
+      - name: Build master playlist
+        run: |
+          # Start with static playlist
+          cp static.m3u master.m3u
+
+          # Append all dynamic sources (skip their #EXTM3U header)
+          for f in sources/*.m3u; do
+            tail -n +2 "$f" >> master.m3u
+          done
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add master.m3u sources/*.m3u
+          git commit -m "Auto update IPTV playlist" || echo "No changes"
+          git push
