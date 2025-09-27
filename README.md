@@ -12,3 +12,11 @@ Sky News
 Sky News Extra 1
 Sky News Extra 2
 Sky News Extra 3
+CGTN News
+SABC News
+DW News
+France 24 (in English)
+ABC News
+FOX News
+Channels Television
+NTA

@@ -31,6 +31,12 @@ jobs:
             ["arise-news|Arise News|https://marvellye.github.io/iptv/images/arise-news-logo-lg.png|News|"]="https://www.youtube.com/watch?v=srJg6ZIPmvU"
             ["sky-news|Sky News|https://marvellye.github.io/iptv/images/Sky_News.png.png|News|SkyNews.uk"]="https://www.youtube.com/watch?v=YDvsBbKfLPA"
             ["tvc-news|TVC News|https://marvellye.github.io/iptv/images/TVC_News.png|News|TvcNews.ng"]="https://www.youtube.com/watch?v=Mv14aabg4mA"
+            ["channels-tv|Channels TV|https://marvellye.github.io/iptv/images/Channels_TV.png|News|ChannelsTV.ng"]="https://www.youtube.com/watch?v=W8nThq62Vb4"
+            ["nta|NTA International|https://marvellye.github.io/iptv/images/NTA.png|News|NTA.ng"]="https://www.youtube.com/watch?v=BRlGIndyDZA"
+            ["fox-news|FOX News|https://marvellye.github.io/iptv/images/FOX_News.png|News|FoxNews.ng"]="https://www.youtube.com/watch?v=vtUWRnwX9Io"
+            ["abc-news|ABC News|https://marvellye.github.io/iptv/images/ABC_News.png|News|ABCNews.go.com"]="https://www.youtube.com/watch?v=aUgwhzoAFuA"
+            ["france24-en|France 24 (in English)|https://marvellye.github.io/iptv/images/France24.png|News|France24.com/en/"]="https://www.youtube.com/watch?v=Ap-UM1O9RBU"
+            ["dw-news|DW News|https://marvellye.github.io/iptv/images/DW_News.png|News|DW.com/en/"]="https://www.youtube.com/watch?v=LuKwFajn37U"
           )
 
           for META in "${!CHANNELS[@]}"; do
