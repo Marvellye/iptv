@@ -27,10 +27,10 @@ jobs:
           mkdir -p sources
 
           # --- Define YouTube channels with metadata ---
-          # Format: ["file-name|Display Name|Logo URL|Group Title|TVG-ID"]=YouTubeURL
           declare -A CHANNELS=(
             ["arise-news|Arise News|https://marvellye.github.io/iptv/images/arise-news-logo-lg.png|News|"]="https://www.youtube.com/watch?v=srJg6ZIPmvU"
             ["sky-news|Sky News|https://marvellye.github.io/iptv/images/Sky_News.png.png|News|SkyNews.uk"]="https://www.youtube.com/watch?v=YDvsBbKfLPA"
+            ["tvc-news|TVC News|https://marvellye.github.io/iptv/images/TVC_News.png|News|TvcNews.ng"]="https://www.youtube.com/watch?v=Mv14aabg4mA"
           )
 
           for META in "${!CHANNELS[@]}"; do
@@ -55,20 +55,27 @@ jobs:
             fi
           done
 
-      - name: Build master playlist
+      - name: Build master & playlist
         run: |
-          # Start with static playlist
+          # Build master: static + raw streams
           cp static.m3u master.m3u
-
-          # Append all dynamic sources (skip their #EXTM3U header)
           for f in sources/*.m3u; do
             tail -n +2 "$f" >> master.m3u
+          done
+
+          # Build playlist: static + references to sources (with metadata)
+          cp static.m3u playlist.m3u
+          for f in sources/*.m3u; do
+            FILE=$(basename "$f")
+            EXTINF=$(grep -m1 "#EXTINF" "$f")
+            echo "$EXTINF" >> playlist.m3u
+            echo "https://raw.githubusercontent.com/${{ github.repository }}/main/sources/$FILE" >> playlist.m3u
           done
 
       - name: Commit & Push
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add master.m3u sources/*.m3u
+          git add master.m3u playlist.m3u sources/*.m3u
           git commit -m "Auto update IPTV playlist" || echo "No changes"
           git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
