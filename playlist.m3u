@@ -13,9 +13,24 @@ https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3
 https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
 #EXTINF:-1 tvg-id="SkyNewsExtra3.au" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News",Sky News Extra 3
 https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://marvellye.github.io/iptv/images/arise-news-logo-lg.png" group-title="News",Arise News (Unavailable)
+#EXTINF:-1 tvg-id="CGTN.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News",CGTN News
+https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
+#EXTINF:-1 tvg-id="SABCNews.za" tvg-logo="https://i.postimg.cc/13JtFJf9/sabcnews.png" group-title="News",SABC News
+https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8#EXTINF:-1 tvg-id="ABCNews.go.com" tvg-logo="https://marvellye.github.io/iptv/images/ABC_News.png" group-title="News",ABC News
+https://raw.githubusercontent.com/Marvellye/iptv/main/sources/abc-news.m3u
+#EXTINF:-1 tvg-id="" tvg-logo="https://marvellye.github.io/iptv/images/arise-news-logo-lg.png" group-title="News",Arise News
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/arise-news.m3u
-#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png.png" group-title="News",Sky News (Unavailable)
+#EXTINF:-1 tvg-id="ChannelsTV.ng" tvg-logo="https://marvellye.github.io/iptv/images/Channels_TV.png" group-title="News",Channels TV
+https://raw.githubusercontent.com/Marvellye/iptv/main/sources/channels-tv.m3u
+#EXTINF:-1 tvg-id="DW.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/DW_News.png" group-title="News",DW News
+https://raw.githubusercontent.com/Marvellye/iptv/main/sources/dw-news.m3u
+#EXTINF:-1 tvg-id="FoxNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News",FOX News
+https://raw.githubusercontent.com/Marvellye/iptv/main/sources/fox-news.m3u
+#EXTINF:-1 tvg-id="France24.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/France24.png" group-title="News",France 24 (in English)
+https://raw.githubusercontent.com/Marvellye/iptv/main/sources/france24-en.m3u
+#EXTINF:-1 tvg-id="NTA.ng" tvg-logo="https://marvellye.github.io/iptv/images/NTA.png" group-title="News",NTA International
+https://raw.githubusercontent.com/Marvellye/iptv/main/sources/nta.m3u
+#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png.png" group-title="News",Sky News
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/sky-news.m3u
-#EXTINF:-1 tvg-id="TvcNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/TVC_News.png" group-title="News",TVC News (Unavailable)
+#EXTINF:-1 tvg-id="TvcNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/TVC_News.png" group-title="News",TVC News
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/tvc-news.m3u
