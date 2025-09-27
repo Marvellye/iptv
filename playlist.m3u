@@ -13,8 +13,8 @@ https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3
 https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
 #EXTINF:-1 tvg-id="SkyNewsExtra3.au" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News",Sky News Extra 3
 https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8#EXTINF:-1 tvg-id="" tvg-logo="https://marvellye.github.io/iptv/images/arise-news-logo-lg.png" group-title="News",Arise News (Unavailable)
-http://offline
+https://raw.githubusercontent.com/Marvellye/iptv/main/sources/arise-news.m3u
 #EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png.png" group-title="News",Sky News (Unavailable)
-http://offline
+https://raw.githubusercontent.com/Marvellye/iptv/main/sources/sky-news.m3u
 #EXTINF:-1 tvg-id="TvcNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/TVC_News.png" group-title="News",TVC News (Unavailable)
-http://offline
+https://raw.githubusercontent.com/Marvellye/iptv/main/sources/tvc-news.m3u
