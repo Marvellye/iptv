@@ -81,7 +81,13 @@ jobs:
       - name: Commit & Push
         run: |
           git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add master.m3u playlist.m3u sources/*.m3u
-          git commit -m "Auto update IPTV playlist" || echo "No changes"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Auto update IPTV playlist" || echo "No changes to commit"
+          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+          run: |
+            git config user.name "github-actions"
+            git config user.email "actions@github.com"
+            git add master.m3u playlist.m3u sources/*.m3u
+            git commit -m "Auto update IPTV playlist" || echo "No changes"
+            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
