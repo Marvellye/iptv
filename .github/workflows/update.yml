@@ -43,13 +43,19 @@ jobs:
 
             echo "#EXTM3U" > sources/$FILE.m3u
 
-            # Try to fetch stream link with cookies
-            M3U_URL=$(yt-dlp --cookies cookies.txt -g -f "301/300/94/93/92/91" "$URL" 2>/dev/null || echo "")
+            echo ">>> Checking formats for $NAME ($URL)"
+            yt-dlp --cookies cookies.txt -F "$URL" || true
+
+            echo ">>> Trying to fetch stream link for $NAME"
+            M3U_URL=$(yt-dlp --cookies cookies.txt -g -f "301/300/94/93/92/91" "$URL" || \
+                      yt-dlp --cookies cookies.txt -g -f best "$URL" || echo "")
 
             if [ -n "$M3U_URL" ]; then
+              echo ">>> Got stream URL for $NAME: $M3U_URL"
               echo "#EXTINF:-1 tvg-id=\"$TVGID\" tvg-logo=\"$LOGO\" group-title=\"$GROUP\",$NAME" >> sources/$FILE.m3u
               echo "$M3U_URL" >> sources/$FILE.m3u
             else
+              echo ">>> Failed to fetch stream for $NAME, marking as offline"
               echo "#EXTINF:-1 tvg-id=\"$TVGID\" tvg-logo=\"$LOGO\" group-title=\"$GROUP\",$NAME (Unavailable)" >> sources/$FILE.m3u
               echo "http://offline" >> sources/$FILE.m3u
             fi
