@@ -24,7 +24,7 @@ https://sabctwota.cdn.mangomolo.com/sabc2/smil:sabc2.stream.smil/master.m3u8
 #EXTINF:-1 tvg-id="SABC3.za" tvg-logo="https://i.imgur.com/eEhLk1D.png" group-title="News",SABC 3
 #EXTINF:-1 tvg-id="ABCNews.go.com" tvg-logo="https://marvellye.github.io/iptv/images/ABC_News.png" group-title="News",ABC News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/abc-news.m3u
-#EXTINF:-1 tvg-id="" tvg-logo="https://marvellye.github.io/iptv/images/arise-news-logo-lg.png" group-title="News",Arise News
+#EXTINF:-1 tvg-id="" tvg-logo="https://marvellye.github.io/iptv/images/arise-news-logo-lg.png" group-title="News",Arise News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/arise-news.m3u
 #EXTINF:-1 tvg-id="ChannelsTV.ng" tvg-logo="https://marvellye.github.io/iptv/images/Channels_TV.png" group-title="News",Channels TV (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/channels-tv.m3u
