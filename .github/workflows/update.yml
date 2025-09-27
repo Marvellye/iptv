@@ -44,7 +44,7 @@ jobs:
             echo "#EXTM3U" > sources/$FILE.m3u
 
             # Try to fetch stream link with cookies
-            M3U_URL=$(yt-dlp --cookies cookies.txt -g -f "best[protocol=m3u8]" "$URL" 2>/dev/null || echo "")
+            M3U_URL=$(yt-dlp --cookies cookies.txt -g -f "301/300/94/93/92/91" "$URL" 2>/dev/null || echo "")
 
             if [ -n "$M3U_URL" ]; then
               echo "#EXTINF:-1 tvg-id=\"$TVGID\" tvg-logo=\"$LOGO\" group-title=\"$GROUP\",$NAME" >> sources/$FILE.m3u
