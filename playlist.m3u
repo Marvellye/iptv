@@ -62,7 +62,7 @@ https://raw.githubusercontent.com/Marvellye/iptv/main/sources/channels-tv.m3u
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/dw-news.m3u
 #EXTINF:-1 tvg-id="FoxNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News",FOX News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/fox-news.m3u
-#EXTINF:-1 tvg-id="France24.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/France24.png" group-title="News",France 24 (in English)
+#EXTINF:-1 tvg-id="France24.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/France24.png" group-title="News",France 24 (in English) (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/france24-en.m3u
 #EXTINF:-1 tvg-id="1AlmereTV.nl" tvg-logo="https://i.imgur.com/XfkbTrU.png" group-title="General",1AlmereTV
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/iptv-org.m3u
