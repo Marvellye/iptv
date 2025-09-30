@@ -52,25 +52,33 @@ http://38.143.48.212:9981/stream/channelid/399303638?profile=pass
 #EXTINF:-1 tvg-id="WildEarth.uk" tvg-chno="3533" tvg-name="WildEarth" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3800007CR_20250121T101229SQUARE.png" group-title="Documentary",WildEarth
 https://jmp2.uk/stvp-US3800007CR
 #EXTINF:-1 tvg-id="Discovery.ca" tvg-chno="3533" tvg-name="Discovery Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3800007CR_20250121T101229SQUARE.png" group-title="Documentary",Discovery Channel
-http://38.143.48.212:9981/stream/channelid/686709663?profile=pass#EXTINF:-1 tvg-id="ABCNews.go.com" tvg-logo="https://marvellye.github.io/iptv/images/ABC_News.png" group-title="News",ABC News
+http://38.143.48.212:9981/stream/channelid/686709663?profile=pass
+#EXTINF:-1 tvg-id="B4UMovies.in@India" tvg-logo="https://i.imgur.com/M9kMFJl.png" group-title="Movies",B4U Movies
+https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8
+#EXTINF:-1 tvg-id="FlicksofFury.us" tvg-logo="https://i.imgur.com/rtL5L81.png" group-title="Movies",Flicks of Fury
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/58e55b14ad8e9c364d55f717/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28ca66-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=671a0e89-5b21-406b-95a9-b395c4ef4b07#EXTINF:-1 tvg-id="ABCNews.go.com" tvg-logo="https://marvellye.github.io/iptv/images/ABC_News.png" group-title="News",ABC News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/abc-news.m3u
-#EXTINF:-1 tvg-id="" tvg-logo="https://marvellye.github.io/iptv/images/arise-news-logo-lg.png" group-title="News",Arise News
+#EXTINF:-1 tvg-id="" tvg-logo="https://marvellye.github.io/iptv/images/arise-news-logo-lg.png" group-title="News",Arise News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/arise-news.m3u
-#EXTINF:-1 tvg-id="ChannelsTV.ng" tvg-logo="https://marvellye.github.io/iptv/images/Channels_TV.png" group-title="News",Channels TV
+#EXTINF:-1 tvg-id="ChannelsTV.ng" tvg-logo="https://marvellye.github.io/iptv/images/Channels_TV.png" group-title="News",Channels TV (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/channels-tv.m3u
-#EXTINF:-1 tvg-id="DW.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/DW_News.png" group-title="News",DW News
+#EXTINF:-1 tvg-id="DW.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/DW_News.png" group-title="News",DW News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/dw-news.m3u
-#EXTINF:-1 tvg-id="FoxNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News",FOX News
+#EXTINF:-1 tvg-id="FoxNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News",FOX News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/fox-news.m3u
-#EXTINF:-1 tvg-id="France24.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/France24.png" group-title="News",France 24 (in English)
+#EXTINF:-1 tvg-id="France24.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/France24.png" group-title="News",France 24 (in English) (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/france24-en.m3u
 #EXTINF:-1 tvg-id="1AlmereTV.nl" tvg-logo="https://i.imgur.com/XfkbTrU.png" group-title="General",1AlmereTV
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/iptv-org.m3u
-#EXTINF:-1 tvg-id="NTA.ng" tvg-logo="https://marvellye.github.io/iptv/images/NTA.png" group-title="News",NTA International
+#EXTINF:-1,123 Go! English (AU) Geo
+https://raw.githubusercontent.com/Marvellye/iptv/main/sources/lg.m3u
+#EXTINF:-1 tvg-id="NTA.ng" tvg-logo="https://marvellye.github.io/iptv/images/NTA.png" group-title="News",NTA International (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/nta.m3u
-#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png.png" group-title="News",Sky News
+#EXTINF:-1,NBC News Now
+https://raw.githubusercontent.com/Marvellye/iptv/main/sources/rok.m3u
+#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png.png" group-title="News",Sky News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/sky-news.m3u
 #EXTINF:-1 channel-id="USBB320000397" tvg-id="USBB320000397" tvg-chno="1600" tvg-name="21 Jump Street" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB320000397_20241105T024257SQUARE.png" group-title="Action & Drama",21 Jump Street
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/ssungusa.m3u
-#EXTINF:-1 tvg-id="TvcNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/TVC_News.png" group-title="News",TVC News
+#EXTINF:-1 tvg-id="TvcNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/TVC_News.png" group-title="News",TVC News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/tvc-news.m3u
