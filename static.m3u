@@ -57,3 +57,21 @@ http://38.143.48.212:9981/stream/channelid/686709663?profile=pass
 https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8
 #EXTINF:-1 tvg-id="FlicksofFury.us" tvg-logo="https://i.imgur.com/rtL5L81.png" group-title="Movies",Flicks of Fury
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/58e55b14ad8e9c364d55f717/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28ca66-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=671a0e89-5b21-406b-95a9-b395c4ef4b07
+#EXTINF:-1 tvg-id="" tvg-name="Arise News" tvg-logo="https://marvellye.github.io/iptv/images/arise-news-logo-lg.png" group-title="News",Arise News
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/AriseNewsChannel/live
+#EXTINF:-1 tvg-id="" tvg-name="Sky News" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png" group-title="News",Sky News
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/SkyNews/live
+#EXTINF:-1 tvg-id="" tvg-name="TVC News" tvg-logo="https://marvellye.github.io/iptv/images/TVC_News.png" group-title="News",TVC News
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/tvcnewsnigeria/live
+#EXTINF:-1 tvg-id="" tvg-name="Channels TV" tvg-logo="https://marvellye.github.io/iptv/images/Channels_TV.png" group-title="News",Channels TV
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/ChannelsTelevision/live
+#EXTINF:-1 tvg-id="" tvg-name="NTA International" tvg-logo="https://marvellye.github.io/iptv/images/NTA.png" group-title="News",NTA International
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/c/NTALive/live
+#EXTINF:-1 tvg-id="" tvg-name="FOX News" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News",FOX News
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/livenowfox/live
+#EXTINF:-1 tvg-id="" tvg-name="ABC News" tvg-logo="https://marvellye.github.io/iptv/images/ABC_News.png" group-title="News",ABC News
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/ABCNews/live
+#EXTINF:-1 tvg-id="" tvg-name="France 24 (in English)" tvg-logo="https://marvellye.github.io/iptv/images/France24.png" group-title="News",France 24 (in English)
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/@France24_en/live
+#EXTINF:-1 tvg-id="" tvg-name="DW News" tvg-logo="https://marvellye.github.io/iptv/images/DW_News.png" group-title="News",DW News
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/@dwnews/live
