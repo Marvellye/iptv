@@ -1,40 +1,48 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-name="CNN International" tvg-logo="https://marvellye.github.io/iptv/images/cnn.png" group-title="News",CNN International
+#EXTINF:-1 tvg-id="" tvg-name="CNN International" tvg-logo="https://marvellye.github.io/iptv/images/cnn.png" group-title="News & Commerce",CNN International
 https://marvellye.github.io/iptv/sources/CNN.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="News",Al Jazeera
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7bRVpnu.png" group-title="News & Commerce",Al Jazeera
 https://d1cy85syyhvqz5.cloudfront.net/v1/master/7b67fbda7ab859400a821e9aa0deda20ab7ca3d2/aljazeeraLive/AJE/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News",BBC News
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/vSz2WEp.png" group-title="News & Commerce",BBC News
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65d92a8c8b24c80008e285c0/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26f5a2-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9f1a48db-9022-43d1-bb25-ba665285192f
-#EXTINF:-1 tvg-id="BBCEarth.uk@US" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="Documentary",BBC Earth US
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/656535fc2c46f30008870fae/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26ce98-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=73fe2b3e-3885-4bd2-874c-cc5f2153e555
-#EXTINF:-1 tvg-id="SkyNewsExtra1.au" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News",Sky News Extra 1
+#EXTINF:-1 tvg-id="SkyNewsExtra1.au" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News & Commerce",Sky News Extra 1
 https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
-#EXTINF:-1 tvg-id="SkyNewsExtra2.au" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News",Sky News Extra 2
+#EXTINF:-1 tvg-id="SkyNewsExtra2.au" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News & Commerce",Sky News Extra 2
 https://skynewsau-live.akamaized.net/hls/live/2002690/skynewsau-extra2/master.m3u8
-#EXTINF:-1 tvg-id="SkyNewsExtra3.au" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News",Sky News Extra 3
+#EXTINF:-1 tvg-id="SkyNewsExtra3.au" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News & Commerce",Sky News Extra 3
 https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
-#EXTINF:-1 tvg-id="CGTN.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News",CGTN News
+#EXTINF:-1 tvg-id="CGTN.cn" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/CGTN.svg/512px-CGTN.svg.png" group-title="News & Commerce",CGTN News
 https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
-#EXTINF:-1 tvg-id="SABCNews.za" tvg-logo="https://i.postimg.cc/13JtFJf9/sabcnews.png" group-title="News",SABC News
+#EXTINF:-1 tvg-id="SABCNews.za" tvg-logo="https://i.postimg.cc/13JtFJf9/sabcnews.png" group-title="News & Commerce",SABC News
 https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8
-#EXTINF:-1 tvg-id="SABC1.za" tvg-logo="https://i.imgur.com/G8OXWe4.png" group-title="News",SABC 1
+#EXTINF:-1 tvg-id="SABC1.za" tvg-logo="https://i.imgur.com/G8OXWe4.png" group-title="News & Commerce",SABC 1
 https://sabconeta.cdn.mangomolo.com/sabc1/smil:sabc1.stream.smil/master.m3u8
-#EXTINF:-1 tvg-id="SABC2.za" tvg-logo="https://i.imgur.com/rj6i9sn.png" group-title="News",SABC 2
+#EXTINF:-1 tvg-id="SABC2.za" tvg-logo="https://i.imgur.com/rj6i9sn.png" group-title="News & Commerce",SABC 2
 https://sabctwota.cdn.mangomolo.com/sabc2/smil:sabc2.stream.smil/master.m3u8
-#EXTINF:-1 tvg-id="SABC3.za" tvg-logo="https://i.imgur.com/eEhLk1D.png" group-title="News",SABC 3
+#EXTINF:-1 tvg-id="SABC3.za" tvg-logo="https://i.imgur.com/eEhLk1D.png" group-title="News & Commerce",SABC 3
 https://sabctreta.cdn.mangomolo.com/sabc3/smil:sabc3.stream.smil/master.m3u8
-#EXTINF:-1 tvg-id="SkySport+.us" tvg-logo="https://marvellye.github.io/iptv/images/Sky_Sports_Plus.png" group-title="Sport",Sky Sport +
-https://a1xs.vip/2000012
-#EXTINF:-1 tvg-id="SkySportF1.us" tvg-logo="https://marvellye.github.io/iptv/images/Sky_Sports_F1.png" group-title="Sport",Sky Sport F1
-https://a1xs.vip/2000005
-#EXTINF:-1 tvg-id="SkySportFootball.us" tvg-logo="https://marvellye.github.io/iptv/images/Sky_Sports_Football.png" group-title="Sport",Sky Sport FOOTBALL
-https://a1xs.vip/2000003
-#EXTINF:-1 tvg-id="SkySportPremierleauge.us" tvg-logo="https://marvellye.github.io/iptv/images/Sky_Sports_Premierleauge.png" group-title="Sport",Sky Sport Premier leauge
-https://a1xs.vip/2000002
-#EXTINF:-1 tvg-id="SkySportAction.us" tvg-logo="https://marvellye.github.io/iptv/images/Sky_Sports_Action.png" group-title="Sport",Sky Sport Action
-https://a1xs.vip/2000011
-#EXTINF:-1 tvg-id="SkyNews.us" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png" group-title="News",Sky News
+#EXTINF:-1 tvg-id="SkyNews.us" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png" group-title="News & Commerce",Sky News
 https://linear417-gb-hls1-prd-ak.cdn.skycdp.com/100e/Content/HLS_001_1080_30/Live/channel(skynews)/index_1080-30.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Arise News" tvg-logo="https://marvellye.github.io/iptv/images/arise-news-logo-lg.png" group-title="News & Commerce",Arise News
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/AriseNewsChannel/live
+#EXTINF:-1 tvg-id="" tvg-name="Sky News" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png" group-title="News & Commerce",Sky News
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/SkyNews/live
+#EXTINF:-1 tvg-id="TVCNews.ng" tvg-logo="https://i.imgur.com/jaSq18B.png" group-title="News & Commerce",TVC News
+http://69.64.57.208/tvcnews/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Channels TV" tvg-logo="https://marvellye.github.io/iptv/images/Channels_TV.png" group-title="News & Commerce",Channels TV
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/ChannelsTelevision/live
+#EXTINF:-1 tvg-id="" tvg-name="NTA International" tvg-logo="https://marvellye.github.io/iptv/images/NTA.png" group-title="News & Commerce",NTA International
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/c/NTALive/live
+#EXTINF:-1 tvg-id="" tvg-name="FOX News" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News & Commerce",FOX News
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/livenowfox/live
+#EXTINF:-1 tvg-id="" tvg-name="ABC News" tvg-logo="https://marvellye.github.io/iptv/images/ABC_News.png" group-title="News & Commerce",ABC News
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/ABCNews/live
+#EXTINF:-1 tvg-id="" tvg-name="France 24 (in English)" tvg-logo="https://marvellye.github.io/iptv/images/France24.png" group-title="News & Commerce",France 24 (in English)
+http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/@France24_en/live
+#EXTINF:-1 tvg-id="DW.de@English" tvg-logo="https://i.imgur.com/8MRNFb9.png" group-title="News & Commerce",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.us" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="News & Commerce",Bloomberg TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/54ff7ba69222cb1c2624c584/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2743c4-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=90859fb4-eb20-4022-bd6d-3413a8bf59c2
 #EXTINF:-1 tvg-id="MNET.sa" tvg-logo="https://marvellye.github.io/iptv/images/MNET.png" group-title="Movies",MNET
 https://m3ufilter.media4u.top/live/media4u/media4u/1765.ts
 #EXTINF:-1 tvg-id="MovieTime.sa" tvg-logo="https://marvellye.github.io/iptv/images/movietime.png" group-title="Movies",Movie Time
@@ -43,64 +51,10 @@ http://38.143.48.212:9981/stream/channelid/1403847081?profile=pass
 http://210.126.10.17:5004/auto/v5023
 #EXTINF:-1 tvg-id="Gametv.ch" tvg-logo="https://marvellye.github.io/iptv/images/gametv.png" group-title="Movies",Game TV
 http://user.scalecdn.co:8080/live/26725074/92867131/3103.ts
-#EXTINF:-1 tvg-id="NationalGeographic.sa" tvg-logo="https://marvellye.github.io/iptv/images/natgeo.png" group-title="Documentary",National Geographic
-http://38.143.48.212:9981/stream/channelid/1422297878?profile=pass
-#EXTINF:-1 tvg-id="NationalGeographicWild.sa" tvg-logo="https://marvellye.github.io/iptv/images/natgeowild.png" group-title="Documentary",National Geographic Wild
-http://portal5458.com:8080/live/Y18QnUSTwM/52775199980/48380.ts
-#EXTINF:-1 tvg-id="TheHistory.sa" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/history-channel-ca.png" group-title="Documentary",The History Channel
-http://38.143.48.212:9981/stream/channelid/399303638?profile=pass
-#EXTINF:-1 tvg-id="WildEarth.uk" tvg-chno="3533" tvg-name="WildEarth" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3800007CR_20250121T101229SQUARE.png" group-title="Documentary",WildEarth
-https://jmp2.uk/stvp-US3800007CR
-#EXTINF:-1 tvg-id="Discovery.ca" tvg-chno="3533" tvg-name="Discovery Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3800007CR_20250121T101229SQUARE.png" group-title="Documentary",Discovery Channel
-http://38.143.48.212:9981/stream/channelid/686709663?profile=pass
 #EXTINF:-1 tvg-id="B4UMovies.in@India" tvg-logo="https://i.imgur.com/M9kMFJl.png" group-title="Movies",B4U Movies
 https://cdnb4u.wiseplayout.com/B4U_Movies/master.m3u8
 #EXTINF:-1 tvg-id="FlicksofFury.us" tvg-logo="https://i.imgur.com/rtL5L81.png" group-title="Movies",Flicks of Fury
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/58e55b14ad8e9c364d55f717/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c28ca66-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=671a0e89-5b21-406b-95a9-b395c4ef4b07
-#EXTINF:-1 tvg-id="" tvg-name="Arise News" tvg-logo="https://marvellye.github.io/iptv/images/arise-news-logo-lg.png" group-title="News",Arise News
-http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/AriseNewsChannel/live
-#EXTINF:-1 tvg-id="" tvg-name="Sky News" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png" group-title="News",Sky News
-http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/SkyNews/live
-#EXTINF:-1 tvg-id="TVCNews.ng" tvg-logo="https://i.imgur.com/jaSq18B.png" group-title="News",TVC News
-http://69.64.57.208/tvcnews/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Channels TV" tvg-logo="https://marvellye.github.io/iptv/images/Channels_TV.png" group-title="News",Channels TV
-http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/ChannelsTelevision/live
-#EXTINF:-1 tvg-id="" tvg-name="NTA International" tvg-logo="https://marvellye.github.io/iptv/images/NTA.png" group-title="News",NTA International
-http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/c/NTALive/live
-#EXTINF:-1 tvg-id="" tvg-name="FOX News" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News",FOX News
-http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/livenowfox/live
-#EXTINF:-1 tvg-id="" tvg-name="ABC News" tvg-logo="https://marvellye.github.io/iptv/images/ABC_News.png" group-title="News",ABC News
-http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/ABCNews/live
-#EXTINF:-1 tvg-id="" tvg-name="France 24 (in English)" tvg-logo="https://marvellye.github.io/iptv/images/France24.png" group-title="News",France 24 (in English)
-http://api.marvelly.com.ng/v1/yt-m3u?url=https://www.youtube.com/@France24_en/live
-#EXTINF:-1 tvg-id="DW.de@English" tvg-logo="https://i.imgur.com/8MRNFb9.png" group-title="News",DW English
-https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/master.m3u8
-#EXTINF:-1 tvg-id="AfroSportNigeria.ng" tvg-logo="https://pbs.twimg.com/profile_images/1451668129042599936/Uh-Z6Sh1_400x400.jpg" group-title="Sports",AfroSport Nigeria
-https://newproxy3.vidivu.tv/vidivu_afrosport/index.m3u8
-#EXTINF:-1 tvg-id="GamePlus.ca" tvg-logo="https://i.imgur.com/Lj69WbR.png" group-title="Sports",Game+
-https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
-#EXTINF:-1 tvg-id="ApprovalTV.ng" tvg-logo="https://live.approvaltv.com/logov.png" group-title="Religious" referrer="https://live.approvaltv.com/",Approval TV
-https://live.approvaltv.com/approvaltv/index.m3u8
-#EXTINF:-1 tvg-id="APTIMTV.ng" tvg-logo="https://i.imgur.com/gWgvm0I.png" group-title="Religious",APTIM TV
-https://stream.commec.tv/6447b2559d8b0711e2fa75cc/live_222c2dc0b69f11ee8c3c99218c8c67c4/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="DunamisTV.ng" tvg-logo="https://i.postimg.cc/kXg4jMn9/dunamistv.png" group-title="Religious",Dunamis TV
-https://atechgroupuk.site/DTV.m3u8
-#EXTINF:-1 tvg-id="LoveworldSAT.ng@SD" tvg-logo="https://i.postimg.cc/VN3VZW2M/loveworldsat.png" group-title="Religious",LoveworldSAT SD
-https://cdnstack.internetmultimediaonline.org/lwsat/lwsat.stream/chunklist.m3u8
-#EXTINF:-1 tvg-id="RaveTV.ng" tvg-logo="https://i.imgur.com/pXKQE0G.png" group-title="",Rave TV
-https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_039/Stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVC.ng" tvg-logo="https://i.postimg.cc/Pq31W0ty/tvc.png" group-title="",TVC
-https://tvce.gridpapaservers.com/TVCSEPT/ngrp:myStream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="WaffiTV.ng" tvg-logo="https://i.imgur.com/3uEuzVH.jpeg" group-title="General",Waffi TV
-https://oqgdro3xd4rm-hls-live.5centscdn.com/waffiitvstreaminglivetfmediacast/e0885d428bea69e372309657f3bd895f.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="WapTV.ng" tvg-logo="https://i.postimg.cc/T1nSs4XD/waptv.png" group-title="",Wap TV
-https://newproxy3.vidivu.tv/waptv/index.m3u8
-#EXTINF:-1 tvg-id="WazobiaMaxTVAbuja.ng" tvg-logo="https://i.imgur.com/XYMKPPT.png" group-title="",Wazobia Max TV Abuja
-https://wazobia.live:8333/channel/wmaxabuja.m3u8
-#EXTINF:-1 tvg-id="WazobiaMaxTVNigeria.ng" tvg-logo="https://i.imgur.com/IeioxBp.png" group-title="",Wazobia Max TV Nigeria
-https://wazobia.live:8333/channel/wmax.m3u8
-#EXTINF:-1 tvg-id="1KZNTV.za" tvg-logo="https://i.postimg.cc/cCPc5tyk/1kzntv.png" group-title="Entertainment;Family;General",1KZN TV
-https://cdn.freevisiontv.co.za/sttv/smil:1kzn.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="24HourFreeMovies.us" tvg-logo="https://i.imgur.com/iSVnzR1.png" group-title="Movies",24 Hour Free Movies
 https://d1j2u714xk898n.cloudfront.net/scheduler/scheduleMaster/145.m3u8
 #EXTINF:-1 tvg-id="70sCinema.us" tvg-logo="https://i.imgur.com/mgXeEE4.png" group-title="Movies",70s Cinema
@@ -134,6 +88,38 @@ https://newfhls.wns.live/hls/stream.m3u8
 https://moviesphereuk-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HBO.us" tvg-logo="" group-title="Movies",HBO
 http://23.237.104.106:8080/USA_HBO/index.m3u8
+#EXTINF:-1 tvg-id="BollywoodClassic.ro@SD" tvg-logo="https://i.imgur.com/ugPo6ca.png" group-title="Movies",Bollywood Classic
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8
+#EXTINF:-1 tvg-id="BollywoodHD.ro@SD" tvg-logo="https://i.imgur.com/scDKOLS.png" group-title="Movies",Bollywood HD SD
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
+#EXTINF:-1 tvg-id="ParamountMovieChannel.us" tvg-logo="https://i.imgur.com/sj5h9bl.png" group-title="Movies",Paramount Movie Channel
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a7819-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8a4a0712-cb24-4d05-b429-1b98c1f73f74
+#EXTINF:-1 tvg-id="SkySport+.us" tvg-logo="https://marvellye.github.io/iptv/images/Sky_Sports_Plus.png" group-title="Sport",Sky Sport +
+https://a1xs.vip/2000012
+#EXTINF:-1 tvg-id="SkySportF1.us" tvg-logo="https://marvellye.github.io/iptv/images/Sky_Sports_F1.png" group-title="Sport",Sky Sport F1
+https://a1xs.vip/2000005
+#EXTINF:-1 tvg-id="SkySportFootball.us" tvg-logo="https://marvellye.github.io/iptv/images/Sky_Sports_Football.png" group-title="Sport",Sky Sport FOOTBALL
+https://a1xs.vip/2000003
+#EXTINF:-1 tvg-id="SkySportPremierleauge.us" tvg-logo="https://marvellye.github.io/iptv/images/Sky_Sports_Premierleauge.png" group-title="Sport",Sky Sport Premier leauge
+https://a1xs.vip/2000002
+#EXTINF:-1 tvg-id="SkySportAction.us" tvg-logo="https://marvellye.github.io/iptv/images/Sky_Sports_Action.png" group-title="Sport",Sky Sport Action
+https://a1xs.vip/2000011
+#EXTINF:-1 tvg-id="AfroSportNigeria.ng" tvg-logo="https://pbs.twimg.com/profile_images/1451668129042599936/Uh-Z6Sh1_400x400.jpg" group-title="Sport",AfroSport Nigeria
+https://newproxy3.vidivu.tv/vidivu_afrosport/index.m3u8
+#EXTINF:-1 tvg-id="GamePlus.ca" tvg-logo="https://i.imgur.com/Lj69WbR.png" group-title="Sport",Game+
+https://a-cdn.klowdtv.com/live2/fntsy_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCEarth.uk@US" tvg-logo="https://i.imgur.com/nGSsUd4.png" group-title="Documentary",BBC Earth US
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/656535fc2c46f30008870fae/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26ce98-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=73fe2b3e-3885-4bd2-874c-cc5f2153e555
+#EXTINF:-1 tvg-id="NationalGeographic.sa" tvg-logo="https://marvellye.github.io/iptv/images/natgeo.png" group-title="Documentary",National Geographic
+http://38.143.48.212:9981/stream/channelid/1422297878?profile=pass
+#EXTINF:-1 tvg-id="NationalGeographicWild.sa" tvg-logo="https://marvellye.github.io/iptv/images/natgeowild.png" group-title="Documentary",National Geographic Wild
+http://portal5458.com:8080/live/Y18QnUSTwM/52775199980/48380.ts
+#EXTINF:-1 tvg-id="TheHistory.sa" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/canada/history-channel-ca.png" group-title="Documentary",The History Channel
+http://38.143.48.212:9981/stream/channelid/399303638?profile=pass
+#EXTINF:-1 tvg-id="WildEarth.uk" tvg-chno="3533" tvg-name="WildEarth" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3800007CR_20250121T101229SQUARE.png" group-title="Documentary",WildEarth
+https://jmp2.uk/stvp-US3800007CR
+#EXTINF:-1 tvg-id="Discovery.ca" tvg-chno="3533" tvg-name="Discovery Channel" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/US3800007CR_20250121T101229SQUARE.png" group-title="Documentary",Discovery Channel
+http://38.143.48.212:9981/stream/channelid/686709663?profile=pass
 #EXTINF:-1 tvg-id="TotallyTurtles.us" tvg-logo="https://i.imgur.com/1gIpagY.png" group-title="Kids",Totally Turtles
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5d0c16d686454ead733d08f8/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2c73e9-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=3441abd1-12dc-4351-b79d-3b4eb58dc339
 #EXTINF:-1 tvg-id="BabySharkTV.us" tvg-logo="https://i.imgur.com/SbBKr8L.png" group-title="Kids",Baby Shark TV
@@ -162,31 +148,45 @@ https://tvpass.org/live/DisneyJuniorEast/hd
 https://tvpass.org/live/DisneyXDEast/hd
 #EXTINF:-1 tvg-id="PBSKids.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/disney-xd-us.png" group-title="Kids",PBS Kids
 https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+#EXTINF:-1 tvg-id="RaveTV.ng" tvg-logo="https://i.imgur.com/pXKQE0G.png" group-title="Entertainment",Rave TV
+https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_039/Stream/playlist.m3u8
+#EXTINF:-1 tvg-id="TVC.ng" tvg-logo="https://i.postimg.cc/Pq31W0ty/tvc.png" group-title="Entertainment",TVC
+https://tvce.gridpapaservers.com/TVCSEPT/ngrp:myStream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="WapTV.ng" tvg-logo="https://i.postimg.cc/T1nSs4XD/waptv.png" group-title="Entertainment",Wap TV
+https://newproxy3.vidivu.tv/waptv/index.m3u8
+#EXTINF:-1 tvg-id="WazobiaMaxTVAbuja.ng" tvg-logo="https://i.imgur.com/XYMKPPT.png" group-title="Entertainment",Wazobia Max TV Abuja
+https://wazobia.live:8333/channel/wmaxabuja.m3u8
+#EXTINF:-1 tvg-id="WazobiaMaxTVNigeria.ng" tvg-logo="https://i.imgur.com/IeioxBp.png" group-title="Entertainment",Wazobia Max TV Nigeria
+https://wazobia.live:8333/channel/wmax.m3u8
+#EXTINF:-1 tvg-id="1KZNTV.za" tvg-logo="https://i.postimg.cc/cCPc5tyk/1kzntv.png" group-title="Entertainment",1KZN TV
+https://cdn.freevisiontv.co.za/sttv/smil:1kzn.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MTV.us" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/mtv-us.png" group-title="Entertainment",MTV
 https://tvpass.org/live/MTVEast/hd
+#EXTINF:-1 tvg-id="BETPlutoTV.us" tvg-logo="https://i.imgur.com/Kq9WKZg.png" group-title="Entertainment",BET Pluto TV
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca670f6593a5d78f0e85aed/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c271cb2-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9e4dfe90-0228-4bbb-b7cd-1e422a0e7cbb
+#EXTINF:-1 tvg-id="MBCAction.ae@SD" tvg-logo="https://i.imgur.com/OWZAghw.png" group-title="Entertainment",MBC Action SD
+http://213.57.91.138:8000/play/a05l
+#EXTINF:-1 tvg-id="TopGear.uk@SD" tvg-logo="https://i.imgur.com/S6Su6QH.png" group-title="Entertainment",Top Gear SD
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64c109735dc1660008a4a2dc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b215b51-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=55fb26fd-5dba-40cd-a0b1-8de7d0f78acb
+#EXTINF:-1 tvg-id="ApprovalTV.ng" tvg-logo="https://live.approvaltv.com/logov.png" group-title="Religious" referrer="https://live.approvaltv.com/",Approval TV
+https://live.approvaltv.com/approvaltv/index.m3u8
+#EXTINF:-1 tvg-id="APTIMTV.ng" tvg-logo="https://i.imgur.com/gWgvm0I.png" group-title="Religious",APTIM TV
+https://stream.commec.tv/6447b2559d8b0711e2fa75cc/live_222c2dc0b69f11ee8c3c99218c8c67c4/index.fmp4.m3u8
+#EXTINF:-1 tvg-id="DunamisTV.ng" tvg-logo="https://i.postimg.cc/kXg4jMn9/dunamistv.png" group-title="Religious",Dunamis TV
+https://atechgroupuk.site/DTV.m3u8
+#EXTINF:-1 tvg-id="LoveworldSAT.ng@SD" tvg-logo="https://i.postimg.cc/VN3VZW2M/loveworldsat.png" group-title="Religious",LoveworldSAT SD
+https://cdnstack.internetmultimediaonline.org/lwsat/lwsat.stream/chunklist.m3u8
+#EXTINF:-1 tvg-id="DareToDreamNetwork.us" tvg-logo="https://i.imgur.com/JwCLwQ2.png" group-title="Religious",Dare To Dream Network
+https://3abn.bozztv.com/3abn2/d2d_live/smil:d2d_live.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="WaffiTV.ng" tvg-logo="https://i.imgur.com/3uEuzVH.jpeg" group-title="General",Waffi TV
+https://oqgdro3xd4rm-hls-live.5centscdn.com/waffiitvstreaminglivetfmediacast/e0885d428bea69e372309657f3bd895f.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="DubaiOne.ae" tvg-logo="https://www.dmi.gov.ae/content/dam/corporate/dev/2023/elogos-ar/dubaione-logo.png" group-title="General",Dubai One
+https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="AnimeAllDay.us" tvg-logo="https://i.imgur.com/bYZtd0G.png" group-title="Animation",Anime All Day
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5812b7d3249444e05d09cc49/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c26a781-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6903cfae-183e-4d3b-a482-b7acf38ce356
 #EXTINF:-1 tvg-id="AreWeThereYet.us@SD" tvg-logo="https://i.imgur.com/3BJQiHP.png" group-title="Series",Are We There Yet? SD
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/65cf8b9328730900087c5324/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=2c791c25-35fc-11ef-a031-2b5d494037a2&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=fd1975a1-4578-4dba-893b-1a552eb054bc
-#EXTINF:-1 tvg-id="BETPlutoTV.us" tvg-logo="https://i.imgur.com/Kq9WKZg.png" group-title="Entertainment",BET Pluto TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5ca670f6593a5d78f0e85aed/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c271cb2-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=9e4dfe90-0228-4bbb-b7cd-1e422a0e7cbb
-#EXTINF:-1 tvg-id="BloombergTV.us" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business",Bloomberg TV
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/54ff7ba69222cb1c2624c584/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2743c4-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=90859fb4-eb20-4022-bd6d-3413a8bf59c2
-#EXTINF:-1 tvg-id="BollywoodClassic.ro@SD" tvg-logo="https://i.imgur.com/ugPo6ca.png" group-title="Classic;Movies",Bollywood Classic
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8
-#EXTINF:-1 tvg-id="BollywoodHD.ro@SD" tvg-logo="https://i.imgur.com/scDKOLS.png" group-title="Movies",Bollywood HD SD
-https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
-#EXTINF:-1 tvg-id="DareToDreamNetwork.us" tvg-logo="https://i.imgur.com/JwCLwQ2.png" group-title="Religious",Dare To Dream Network
-https://3abn.bozztv.com/3abn2/d2d_live/smil:d2d_live.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="DealorNoDeal.us" tvg-logo="https://i.imgur.com/lZvNXA1.png" group-title="Series",Deal or No Deal
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5e9debf8c881310007d7bde1/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c287c44-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=6e0ea473-5558-49ab-b31c-6b1180531eab
-#EXTINF:-1 tvg-id="DubaiOne.ae" tvg-logo="https://www.dmi.gov.ae/content/dam/corporate/dev/2023/elogos-ar/dubaione-logo.png" group-title="General",Dubai One
-https://dminnvllta.cdn.mgmlcdn.com/dubaione/smil:dubaione.stream.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="MBCAction.ae@SD" tvg-logo="https://i.imgur.com/OWZAghw.png" group-title="Entertainment",MBC Action SD
-http://213.57.91.138:8000/play/a05l
 #EXTINF:-1 tvg-id="TraceHits.uk" tvg-logo="https://i.imgur.com/Vvxz6KX.png" group-title="Music",Trace Hits
 https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/trace-uk/encrypted.m3u8
-#EXTINF:-1 tvg-id="TopGear.uk@SD" tvg-logo="https://i.imgur.com/S6Su6QH.png" group-title="Auto;Entertainment",Top Gear SD
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/64c109735dc1660008a4a2dc/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=1b215b51-4b81-11ef-a8ac-e146e4e7be02&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=55fb26fd-5dba-40cd-a0b1-8de7d0f78acb
-#EXTINF:-1 tvg-id="ParamountMovieChannel.us" tvg-logo="https://i.imgur.com/sj5h9bl.png" group-title="Movies",Paramount Movie Channel
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a7819-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=8a4a0712-cb24-4d05-b429-1b98c1f73f74
