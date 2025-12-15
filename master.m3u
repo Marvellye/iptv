@@ -197,8 +197,8 @@ http://offline
 http://offline
 #EXTINF:-1 tvg-id="DW.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/DW_News.png" group-title="News",DW News (Unavailable)
 http://offline
-#EXTINF:-1 tvg-id="FoxNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News",FOX News (Unavailable)
-http://offline
+#EXTINF:-1 tvg-id="FoxNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News",FOX News
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1765786128/ei/sG0_aZuTI9qb2_gPkonqqQE/ip/52.159.246.1/id/73jcWtK63mE.1/itag/94/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D135/rqh/1/hls_chunk_host/rr3---sn-o097znsd.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AYUSA3DSeqgLHQ5i77GKdmKTTEN31ZRCIvdi3Ki47Ut6JuyTwGvg4eicN_avl8dA4ILPy65gN-3cZ_ER/spc/wH4Qq3jeuVoweWhy39qUISGPCzwL_KIHBBm-sj0U9DCy1_jOUuwBejJ0Erd8S8IuX-g/vprv/1/playlist_type/DVR/cps/464/initcwndbps/8836250/met/1765764529,/mh/Fl/mm/44/mn/sn-o097znsd/ms/lva/mv/m/mvi/3/pl/17/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565116,51565681,51580968/mt/1765752037/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,playlist_type/sig/AJfQdSswRQIgRsJGCcgWYJJ5DtR84HXhKwxS3kNhOmH5EXBPYN1Wd_kCIQDU3oGHFONGB7kojT_QCRMAPAi06mtC3jMrcxJK7r-EFA%3D%3D/lsparams/hls_chunk_host,cps,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIhAJiE4zcC7uJPD4vsmbILBIxeYkBgu535h1YmCv7uP_zMAiBoXo0ajqASmONJOH1EaiqlAKuJmQ7arcmULr10Q1duXw%3D%3D/playlist/index.m3u8
 #EXTINF:-1 tvg-id="France24.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/France24.png" group-title="News",France 24 (in English) (Unavailable)
 http://offline
 #EXTINF:-1 tvg-id="1AlmereTV.nl" tvg-logo="https://i.imgur.com/XfkbTrU.png" group-title="General",1AlmereTV
