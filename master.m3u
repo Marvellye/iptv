@@ -197,8 +197,8 @@ http://offline
 http://offline
 #EXTINF:-1 tvg-id="DW.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/DW_News.png" group-title="News",DW News (Unavailable)
 http://offline
-#EXTINF:-1 tvg-id="FoxNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News",FOX News
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769108611/ei/IyByadWYE9Dxir4P3LKByAE/ip/64.236.176.148/id/rcOWKomBFK8.1/itag/95/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D136/rqh/1/hls_chunk_host/rr2---sn-vgqsrnll.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/bui/AW-iu_p2_vqTse5021NpbV5NzTYNNEUszCv2-YbGXw_zQFIa0zFFQP_MD18iXZ8IgIgGiyX0i1PE_CTf/spc/q5xjPEh9A_vWOqyUbvtY/vprv/1/playlist_type/DVR/met/1769087011,/mh/-X/mm/44/mn/sn-vgqsrnll/ms/lva/mv/u/mvi/2/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51552689,51565116,51565681,51580968,51626155/mt/1769086412/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,bui,spc,vprv,playlist_type/sig/AJEij0EwRQIgEeUyp3dLYy61CrymaxH0sfDPPC0zzGtfH4t9l7FKEfUCIQCAmkxIEPoSE3HEEuSyaSMZJ2SVeu8oLTeDjxH2Glj3xA%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRQIgJc3rMxFtDNUCiymm_ninV81CABOtHlmfD6R4X8f9k5wCIQCLvq1oqrc2WwsDcbbO5ScSlUlaF9tQmXhOTmsV5IZntA%3D%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-id="FoxNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News",FOX News (Unavailable)
+http://offline
 #EXTINF:-1 tvg-id="France24.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/France24.png" group-title="News",France 24 (in English) (Unavailable)
 http://offline
 #EXTINF:-1 tvg-id="1AlmereTV.nl" tvg-logo="https://i.imgur.com/XfkbTrU.png" group-title="General",1AlmereTV
@@ -20655,8 +20655,8 @@ https://live828.delivery.roku.com/29376ef4-95cf-445b-82bc-05982adc0bb8/t2-origin
 https://live1027.delivery.roku.com/9d107bc9-b6de-43b6-966c-a98c2c14320d/t2-origin/out/v1/live.m3u8
 #EXTINF:-1,Channel 3 Eyewitness News
 https://live1037.delivery.roku.com/096606b5-548c-489b-be79-b5563c8c4fe1/t2-origin/out/v1/live.m3u8
-#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png.png" group-title="News",Sky News
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1769108615/ei/JyByaeeOC5CDlu8Ppc_6iAc/ip/64.236.176.148/id/NrASybQN3Mk.4/itag/301/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D299/rqh/1/hls_chunk_host/rr1---sn-vgqsrnlz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/ss/1/ssa/1/bui/AW-iu_oE73GC4RhZSo-NetX8qT763jrgc8qgOAJmhSPkaMenag5Q5dAB4ElaDH3Wpc1GTtg2i78AKbx-/spc/q5xjPPS8ESiSu0rMhPL535Q6bOupPtrLCeEqzRKOg5JG6idfV9nFKAFEbcT4oxfCBPu-tw/vprv/1/ns/-F_wSXk3MM-j4QmHRCD4dZMS/playlist_type/DVR/met/1769087015,/mh/1l/mm/44/mn/sn-vgqsrnlz/ms/lva/mv/u/mvi/1/pl/16/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51355912,51552689,51565116,51565681,51580968,51626155/n/14-WeOeSbamkqtZpH/mt/1769086412/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,ss,ssa,bui,spc,vprv,ns,playlist_type/sig/AJEij0EwRQIgW1bBO0T4A0ed_-_VInjkM3e1863UCXKgAoqlc4rErMECIQCD2VfZ0Jrck3VfdbAd5pGQ6g1aBGltU0fLcJiU54BvvQ%3D%3D/lsparams/hls_chunk_host,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAKjMdffkSx5ul993neREE57tlaGRsg2i6_BbMYs8O23vAiEAw5lszjDx5ZxLgDPvwMpeEDz0SbYARslVxYLPaY0_Pns%3D/playlist/index.m3u8
+#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png.png" group-title="News",Sky News (Unavailable)
+http://offline
 #EXTINF:-1 channel-id="USBB320000397" tvg-id="USBB320000397" tvg-chno="1600" tvg-name="21 Jump Street" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB320000397_20241105T024257SQUARE.png" group-title="Action & Drama",21 Jump Street
 https://jmp2.uk/stvp-USBB320000397
 #EXTINF:-1 channel-id="USBD70000412" tvg-id="USBD70000412" tvg-chno="2954" tvg-name="4UV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD70000412_20250520T211332SQUARE.png" group-title="Lifestyle & Pop Culture",4UV

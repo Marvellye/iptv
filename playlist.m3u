@@ -197,7 +197,7 @@ https://raw.githubusercontent.com/Marvellye/iptv/main/sources/arise-news.m3u
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/channels-tv.m3u
 #EXTINF:-1 tvg-id="DW.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/DW_News.png" group-title="News",DW News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/dw-news.m3u
-#EXTINF:-1 tvg-id="FoxNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News",FOX News
+#EXTINF:-1 tvg-id="FoxNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/FOX_News.png" group-title="News",FOX News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/fox-news.m3u
 #EXTINF:-1 tvg-id="France24.com/en/" tvg-logo="https://marvellye.github.io/iptv/images/France24.png" group-title="News",France 24 (in English) (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/france24-en.m3u
@@ -209,7 +209,7 @@ https://raw.githubusercontent.com/Marvellye/iptv/main/sources/lg.m3u
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/nta.m3u
 #EXTINF:-1,NBC News Now
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/rok.m3u
-#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png.png" group-title="News",Sky News
+#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://marvellye.github.io/iptv/images/Sky_News.png.png" group-title="News",Sky News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/sky-news.m3u
 #EXTINF:-1 channel-id="USBB320000397" tvg-id="USBB320000397" tvg-chno="1600" tvg-name="21 Jump Street" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB320000397_20241105T024257SQUARE.png" group-title="Action & Drama",21 Jump Street
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/ssungusa.m3u
