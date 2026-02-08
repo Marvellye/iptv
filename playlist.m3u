@@ -213,5 +213,5 @@ https://raw.githubusercontent.com/Marvellye/iptv/main/sources/rok.m3u
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/sky-news.m3u
 #EXTINF:-1 channel-id="USBB320000397" tvg-id="USBB320000397" tvg-chno="1600" tvg-name="21 Jump Street" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBB320000397_20241105T024257SQUARE.png" group-title="Action & Drama",21 Jump Street
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/ssungusa.m3u
-#EXTINF:-1 tvg-id="TvcNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/TVC_News.png" group-title="News",TVC News
+#EXTINF:-1 tvg-id="TvcNews.ng" tvg-logo="https://marvellye.github.io/iptv/images/TVC_News.png" group-title="News",TVC News (Unavailable)
 https://raw.githubusercontent.com/Marvellye/iptv/main/sources/tvc-news.m3u
